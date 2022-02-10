@@ -52,9 +52,7 @@ public class Util {
         return sessionFactory;
     }
 
-    public static void shutdown(){
-        getSessionFactory().close();
-    }
+
 
     public static Connection connectToDB() {
         Connection connection = null;
